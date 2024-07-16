@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Playwrite+PE:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PE:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+:root {
+    --fpadrao: Verdana, Geneva, Tahoma, sans-serif;
+    --ftitulo: 'Passion One', sans-serif;
+    --fconteudo: "Playwrite PE", cursive;
+    --fconteudo1: "Arsenal SC", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fpadrao);
+    font-size: 1em;
+}
+
+.normal {
+    font-family: var(--ftitulo);
+    font-size: 1.5em;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    background-image: url("../images/img03.jpg");
+    background-size: cover
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--ftitulo);
+    font-size: 10vw;
+}
+
+header > p {
+    padding-bottom: 50px;
+    padding-top: 10px;
+    color: rgb(251, 251, 251);
+    font-weight: bolder;
+    font-size: 3vw;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1.4em;
+    padding-left: 30px;
+    font-family: var(--fconteudo1);
+    font-size: 4vw;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+    padding: 150px 20px;
+}
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 20px;
+    padding-bottom: 1.5em;
+    background-color: rgba(0, 0, 0, 0.434);
+    text-shadow: 2px 2px opx black;
+}
+
+section#img01 {
+    background-image: url("../images/imag\ 3\ n.jpg");
+    background-position: right center;
+    
+}
+
+section#img02 {
+    background-image: url("../images/imag\ 5.jpg");
+    background-position: right center;
+}
+
+section#img03 {
+    background-image: url("../images/imag\ 6.jpg");
+    background-position: right center;
+}
+
+section#img04 {
+    background-image: url("../images/img04.jpg");
+    background-position: right center;
+}
+
+section#img05 {
+    background-image: url("../images/imag\ 1.jpg");
+    background-position: right center;
+}
+
+footer > p {
+    padding: 15px;
+    font-weight: bolder;
+    /*font-size: 1.5vw;*/
+    font-size: 15px;
+}
